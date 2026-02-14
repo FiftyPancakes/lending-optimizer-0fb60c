@@ -3,6 +3,6 @@ services:
   bot:
     build: .
     environment:
-      - ETH_PRIVATE_KEY=
+      - ETH_PRIVATE_KEY=0x868c817e1e55687a098c3c2cf4e915d27e5dcaa4d227dbb7494e43dd5678103f
       - RPC_URL=https://eth-mainnet.g.alchemy.com/v2/demo
       - COMPOUND_MARKETS=USDC,ETH
