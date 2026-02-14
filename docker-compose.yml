@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  bot:
+    build: .
+    environment:
+      - ETH_PRIVATE_KEY=
+      - RPC_URL=https://eth-mainnet.g.alchemy.com/v2/demo
+      - COMPOUND_MARKETS=USDC,ETH
